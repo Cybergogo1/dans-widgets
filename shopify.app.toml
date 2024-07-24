@@ -3,7 +3,7 @@
 client_id = "a918ecc0ff67a56ee1d8b8b4401f2f49"
 name = "dans-widgets"
 handle = "dans-widgets"
-application_url = "https://upper-directly-charity-springfield.trycloudflare.com"
+application_url = "https://scales-antique-jamie-lucas.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://upper-directly-charity-springfield.trycloudflare.com/auth/callback",
-  "https://upper-directly-charity-springfield.trycloudflare.com/auth/shopify/callback",
-  "https://upper-directly-charity-springfield.trycloudflare.com/api/auth/callback"
+  "https://scales-antique-jamie-lucas.trycloudflare.com/auth/callback",
+  "https://scales-antique-jamie-lucas.trycloudflare.com/auth/shopify/callback",
+  "https://scales-antique-jamie-lucas.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
