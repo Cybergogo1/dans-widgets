@@ -10,18 +10,23 @@
     </div>
 </div>
 
+{% schema %}
 {
     "name": "Cyber Cat Section",
+    "target": "section",
     "blocks": [
-        "type": "heading",
-        "name": "Cat Title",
-        "settings": [
-            {
-                type: "text",
-                "id": "cattitle",
-                "label": "Cat Title",
-                "default": "Our Jumpers"
-            }
-        ]
+        {
+            "type": "heading",
+            "name": "Cat Title",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "cattitle",
+                    "label": "Cat Title",
+                    "default": "Our Jumpers"
+                }
+            ]
+        }
     ]
 }
+{% endschema %}
