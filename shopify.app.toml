@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "a918ecc0ff67a56ee1d8b8b4401f2f49"
+name = "dans-widgets"
+handle = "dans-widgets"
+application_url = "https://upper-directly-charity-springfield.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "cybergogotest.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://upper-directly-charity-springfield.trycloudflare.com/auth/callback",
+  "https://upper-directly-charity-springfield.trycloudflare.com/auth/shopify/callback",
+  "https://upper-directly-charity-springfield.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks"
+
+[pos]
+embedded = false

@@ -1,0 +1,27 @@
+<div class="cyber_cat">
+    <div class="screen-width">
+        {% for block in section.cybercat_blocks %}
+            {%- case block.type -%}
+                <div class="cybercat_box">
+                    {{ block.settings.cattitle }}
+                </div>
+            {% endcase %}
+        {% endfor %}
+    </div>
+</div>
+
+{
+    "name": "Cyber Cat Section",
+    "blocks": [
+        "type": "heading",
+        "name": "Cat Title",
+        "settings": [
+            {
+                type: "text",
+                "id": "cattitle",
+                "label": "Cat Title",
+                "default": "Our Jumpers"
+            }
+        ]
+    ]
+}
