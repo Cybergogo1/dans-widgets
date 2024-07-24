@@ -3,7 +3,7 @@
 client_id = "a918ecc0ff67a56ee1d8b8b4401f2f49"
 name = "dans-widgets"
 handle = "dans-widgets"
-application_url = "https://against-librarian-timely-snow.trycloudflare.com"
+application_url = "https://accidents-overseas-specifies-door.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://against-librarian-timely-snow.trycloudflare.com/auth/callback",
-  "https://against-librarian-timely-snow.trycloudflare.com/auth/shopify/callback",
-  "https://against-librarian-timely-snow.trycloudflare.com/api/auth/callback"
+  "https://accidents-overseas-specifies-door.trycloudflare.com/auth/callback",
+  "https://accidents-overseas-specifies-door.trycloudflare.com/auth/shopify/callback",
+  "https://accidents-overseas-specifies-door.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

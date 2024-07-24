@@ -1,12 +1,8 @@
-<div class="cyber_cat">
+<div class="cyber_cat" style="height: 40px; background: red;">
     <div class="screen-width container">
-        {% for block in section.cybercat_blocks %}
-            {%- case block.type -%}
-                <div class="cybercat_box">
-                    {{ block.settings.cattitle }}
-                </div>
-            {% endcase %}
-        {% endfor %}
+        <div class="cybercat_box test">
+            <p>{{ block.settings.cattitle }}</p>
+        </div>
     </div>
 </div>
 
@@ -14,18 +10,18 @@
 {
     "name": "Cyber Cat Section",
     "target": "section",
-    "block": [
+    "settings": [
         {
-            "type": "heading",
-            "name": "Cat Title",
-            "settings": [
-                {
-                    "type": "text",
-                    "id": "cattitle",
-                    "label": "Cat Title",
-                    "default": "Our Jumpers"
-                }
-            ]
+            "type": "text",
+            "id": "cattitle",
+            "label": "Cat Title",
+            "default": "Our Jumpers"
+        }
+    ],
+    "presets": [
+        {
+            "name":"Cyber Cat Section",
+            "category": "Custom Widgets"
         }
     ]
 }
