@@ -3,7 +3,7 @@
 client_id = "a918ecc0ff67a56ee1d8b8b4401f2f49"
 name = "dans-widgets"
 handle = "dans-widgets"
-application_url = "https://monetary-nerve-visible-really.trycloudflare.com"
+application_url = "https://opening-comedy-cave-us.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://monetary-nerve-visible-really.trycloudflare.com/auth/callback",
-  "https://monetary-nerve-visible-really.trycloudflare.com/auth/shopify/callback",
-  "https://monetary-nerve-visible-really.trycloudflare.com/api/auth/callback"
+  "https://opening-comedy-cave-us.trycloudflare.com/auth/callback",
+  "https://opening-comedy-cave-us.trycloudflare.com/auth/shopify/callback",
+  "https://opening-comedy-cave-us.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

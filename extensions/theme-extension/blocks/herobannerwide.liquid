@@ -1,0 +1,35 @@
+<div id="herobanner_cyber">
+    <div class="herobanner_inner" style="background: url('{{ block.settings.herobg | image_url: width: 600 }}');">
+        <div class="herobanner_text">
+            <h5>{{ block.settings.herotitle }}</h5>
+            <p>{{ block.settings.herotext }}</p>
+            <div class="bttn">Click Here</div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Hero Cat Block",
+    "target": "section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "herotitle",
+            "label": "Hero Title",
+            "default": "Hi, I'm a hero banner!"
+        },
+        {
+            "type": "text",
+            "id": "herotext",
+            "label": "Hero Text",
+            "default": "I'm more lorem ipsum text, but Dan didn't want to open the browser again just yet, so he typed me instead!"
+        },
+        {
+            "type": "image_picker",
+            "id": "herobg",
+            "label": "Hero Background"
+        }
+    ]
+}
+{% endschema %}
