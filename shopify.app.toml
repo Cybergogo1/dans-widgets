@@ -3,7 +3,7 @@
 client_id = "a918ecc0ff67a56ee1d8b8b4401f2f49"
 name = "dans-widgets"
 handle = "dans-widgets"
-application_url = "https://lawyers-temporary-swimming-flour.trycloudflare.com"
+application_url = "https://monetary-nerve-visible-really.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://lawyers-temporary-swimming-flour.trycloudflare.com/auth/callback",
-  "https://lawyers-temporary-swimming-flour.trycloudflare.com/auth/shopify/callback",
-  "https://lawyers-temporary-swimming-flour.trycloudflare.com/api/auth/callback"
+  "https://monetary-nerve-visible-really.trycloudflare.com/auth/callback",
+  "https://monetary-nerve-visible-really.trycloudflare.com/auth/shopify/callback",
+  "https://monetary-nerve-visible-really.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
