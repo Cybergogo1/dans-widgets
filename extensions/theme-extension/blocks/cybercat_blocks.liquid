@@ -1,7 +1,13 @@
-<div class="cyber_cat" style="height: 40px; background: red;">
+{{ 'cybercat_blocks.css' | asset_url | stylesheet_tag }}
+
+<div class="cyber_cat" style="text-align: center;">
     <div class="screen-width container">
         <div class="cybercat_box test">
+            <div class="catimgbox">
+                {{ block.settings.catimg | image_url: width: 600 | image_tag }}
+            </div>
             <p>{{ block.settings.cattitle }}</p>
+            <p>Shop Today</p>
         </div>
     </div>
 </div>
@@ -16,12 +22,11 @@
             "id": "cattitle",
             "label": "Cat Title",
             "default": "Our Jumpers"
-        }
-    ],
-    "presets": [
+        },
         {
-            "name":"Cyber Cat Section",
-            "category": "Custom Widgets"
+            "type": "image_picker",
+            "id": "catimg",
+            "label": "Cat Image"
         }
     ]
 }

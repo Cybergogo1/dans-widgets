@@ -1,0 +1,5 @@
+section.section > .page-width:has(.cybercat_box) { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); column-gap: 15px; padding-top: 50px !important; padding-bottom: 50px !important; }
+.cybercat_box img { max-width: 100%; object-fit: cover; height: 28vw; max-height: 500px; }
+.cybercat_box .catimgbox { overflow: hidden; border-radius: 10px; }
+.cybercat_box .catimgbox img { transition: all 0.4s; display: block; background-color: #fff; }
+.cybercat_box:hover .catimgbox img { transform: scale(1.05); transition: all 0.2s; }
